@@ -5,3 +5,6 @@ When I inititalise a repository, a .git file is created. I need to do it to allo
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 
 the staging area is a place to put files before commiting to the repository. It is useful as a check.
+
+How can you use the staging area to make sure you have one commit per logical change?
+git add the files that comprise a logical change to the staging area then use git diff to ensure that all the changes are reevant to the one change being committed.
