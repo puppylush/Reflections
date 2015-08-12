@@ -1,0 +1,3 @@
+t happens when you initialize a repository? Why do you need to do it?
+
+When I inititalise a repository, a .git file is created. I need to do it to allow git to start tracking files in the directory.

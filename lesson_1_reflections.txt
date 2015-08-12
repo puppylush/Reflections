@@ -1,0 +1,16 @@
+I have already found the course useful, as it has shown me how to compare files in two different tools, FC and diff, and recommended the sublime text editor.
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+Viewing a diff between the two files reduced the number of lines to manually check from 1000 to 10.
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+By making it quicker to retrieve previous versions, in the case of a rollback, no need to recode the file. 
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+Pros - being able to choose logical times to commit makes the history easier to use. cons - might forget to commit. 
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+Because they were designed to fulfil different use cases. git is for code.
+How can you use the commands git log and git diff to view the history of files?
+git log shows the history of commits. remember to scroll using arrow keys, and to start in the correct dir using cd.
+git diff (remember the space) compares files. older commits are further down the list, most recent ones at the top. to stop reading a file use 'q' for quit. to copy and paste, right click in the top bar of the window, click edit then mark copy or paste. (there must be an easier way). enable quick edit mode and copy and paste by right clicking. 
+How might using version control make you more confident to make changes that could break something?
+it's easy to revert to working code if it all goes wrong.
+Reflect: How Do You Want to Use Git?
+I want to use it in building apps for android.
