@@ -7,3 +7,7 @@ In case of working remotely on a project with others, wanting files to be access
 Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
 
 If you are working collaboratively, you may not want your work to be overwritten by the changes of others on an ad hoc basis. 
+
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+
+GitHub allows forking of repositories - making a copy of another users repository for editing. Git repos can be locally cloned, making an exact copy. Branching code creates a label for some changes which will not alter the master version of a repository unless specifically merged back in. Forking is a good way to build on the work of another without altering the original. Cloning is a good way to see an exact copy of a project without altering the original, or to start work on editing from a known up to date position. branching is useful for experimentation or discrete changes, or when working collaboratively on a repo.
