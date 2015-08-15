@@ -8,3 +8,16 @@ the staging area is a place to put files before commiting to the repository. It 
 
 How can you use the staging area to make sure you have one commit per logical change?
 git add the files that comprise a logical change to the staging area then use git diff to ensure that all the changes are reevant to the one change being committed.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+when testing experimental changes, working as a group on the same codebase, working on language localization, branches can help by leaving a 'known good' codebase in master.
+
+How do the diagrams help you visualize the branch structure?
+drawing a diagram of the branch structure can help visualise exactly which changes are present in a branch, and ensure no commits are lost inadvertabtly at the point of merging.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+The result of merging two branches is that the changes contained in those branches all appear in the merged-into branch. commits will be listed by git log in timestamp order. we represent it in a diagram as two branches coming together, as the label of the merged into branch now points to the new commit at the head.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+automatic merging saves a lot of time but can only merge when conflicting changing are not present. manual merging allows developers to compare changes and choose which version of a file or piece of code is required.
+
